@@ -1,0 +1,142 @@
+2024-11-19 13:58:44 - Database Error
+{
+    "type": "database",
+    "code": "42S02",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S02",
+        "driver_code": 1146,
+        "driver_message": "Table 'computer_room_management.computer_rooms1' doesn't exist",
+        "context": {
+            "sql": "SELECT * FROM computer_rooms1",
+            "params": []
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM c...')\n#1 C:\\wamp64\\www\\jomvc\\controllers\\HomeController.php(13): Database->query('SELECT * FROM c...')\n#2 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): HomeController->index(NULL)\n#3 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#4 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}
+2024-11-19 19:50:46 - Database Error
+{
+    "type": "database",
+    "code": "42S22",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S22",
+        "driver_code": 1054,
+        "driver_message": "Unknown column 'username' in 'where clause'",
+        "context": {
+            "sql": "SELECT * FROM users WHERE username = ? AND password = ?",
+            "params": [
+                "Boss",
+                "123"
+            ]
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM u...')\n#1 C:\\wamp64\\www\\jomvc\\core\\Model.php(74): Database->query('SELECT * FROM u...', Array)\n#2 C:\\wamp64\\www\\jomvc\\models\\UserModel.php(19): Model->findOne(Array)\n#3 C:\\wamp64\\www\\jomvc\\controllers\\AuthController.php(14): UserModel->login('Boss', '123')\n#4 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): AuthController->login(NULL)\n#5 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#6 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}
+2024-11-19 19:51:22 - Database Error
+{
+    "type": "database",
+    "code": "42S22",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S22",
+        "driver_code": 1054,
+        "driver_message": "Unknown column 'username' in 'where clause'",
+        "context": {
+            "sql": "SELECT * FROM users WHERE username = ?",
+            "params": [
+                "Boss"
+            ]
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM u...')\n#1 C:\\wamp64\\www\\jomvc\\core\\Model.php(74): Database->query('SELECT * FROM u...', Array)\n#2 C:\\wamp64\\www\\jomvc\\models\\UserModel.php(19): Model->findOne(Array)\n#3 C:\\wamp64\\www\\jomvc\\controllers\\AuthController.php(14): UserModel->login('Boss', '123')\n#4 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): AuthController->login(NULL)\n#5 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#6 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}
+2024-11-19 20:35:38 - Database Error
+{
+    "type": "database",
+    "code": "42S22",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S22",
+        "driver_code": 1054,
+        "driver_message": "Unknown column 'username' in 'where clause'",
+        "context": {
+            "sql": "SELECT * FROM users WHERE username = ?",
+            "params": [
+                "Boss"
+            ]
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM u...')\n#1 C:\\wamp64\\www\\jomvc\\core\\Model.php(74): Database->query('SELECT * FROM u...', Array)\n#2 C:\\wamp64\\www\\jomvc\\models\\UserModel.php(19): Model->findOne(Array)\n#3 C:\\wamp64\\www\\jomvc\\controllers\\AuthController.php(14): UserModel->login('Boss', '123')\n#4 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): AuthController->login(NULL)\n#5 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#6 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}
+2024-11-19 20:37:34 - Database Error
+{
+    "type": "database",
+    "code": "42S22",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S22",
+        "driver_code": 1054,
+        "driver_message": "Unknown column 'username' in 'where clause'",
+        "context": {
+            "sql": "SELECT * FROM users WHERE username = ?",
+            "params": [
+                "Boss"
+            ]
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM u...')\n#1 C:\\wamp64\\www\\jomvc\\core\\Model.php(74): Database->query('SELECT * FROM u...', Array)\n#2 C:\\wamp64\\www\\jomvc\\models\\UserModel.php(19): Model->findOne(Array)\n#3 C:\\wamp64\\www\\jomvc\\controllers\\AuthController.php(14): UserModel->login('Boss', '123')\n#4 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): AuthController->login(NULL)\n#5 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#6 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}
+2024-11-19 20:44:29 - Database Error
+{
+    "type": "database",
+    "code": "42S02",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S02",
+        "driver_code": 1146,
+        "driver_message": "Table 'db_library.computer_rooms' doesn't exist",
+        "context": {
+            "sql": "SELECT * FROM computer_rooms",
+            "params": []
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM c...')\n#1 C:\\wamp64\\www\\jomvc\\controllers\\HomeController.php(13): Database->query('SELECT * FROM c...')\n#2 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): HomeController->index(NULL)\n#3 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#4 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}
+2024-11-19 20:54:56 - Database Error
+{
+    "type": "database",
+    "code": "42S22",
+    "message": "ເກີດຂໍ້ຜິດພາດໃນການ Query ຖານຂໍ້ມູນ",
+    "details": {
+        "error_type": "query_error",
+        "sql_state": "42S22",
+        "driver_code": 1054,
+        "driver_message": "Unknown column 'a' in 'where clause'",
+        "context": {
+            "sql": "SELECT * FROM users WHERE a",
+            "params": []
+        },
+        "trace": "#0 C:\\wamp64\\www\\jomvc\\core\\Database.php(80): PDO->prepare('SELECT * FROM u...')\n#1 C:\\wamp64\\www\\jomvc\\core\\Model.php(79): Database->query('SELECT * FROM u...')\n#2 C:\\wamp64\\www\\jomvc\\models\\UserModel.php(19): Model->where('a', 's')\n#3 C:\\wamp64\\www\\jomvc\\controllers\\AuthController.php(14): UserModel->login('a', 's')\n#4 C:\\wamp64\\www\\jomvc\\core\\Router.php(35): AuthController->login(NULL)\n#5 C:\\wamp64\\www\\jomvc\\index.php(34): Router->RouterProvider()\n#6 {main}",
+        "file": "C:\\wamp64\\www\\jomvc\\core\\Database.php",
+        "line": 80
+    }
+}

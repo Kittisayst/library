@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# ຖ້າບໍ່ແມ່ນໄຟລ໌ຫຼືໂຟລເດີທີ່ມີຢູ່ແລ້ວ
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ສົ່ງທຸກຄຳຮ້ອງຂໍໄປຫາ index.php
+RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]
